@@ -140,9 +140,13 @@ h2{
 }
 
 /* Sobre*/
-#about{
+#about {
     height: 400px;
-    background-color: var(--secondary);
+
+    background: linear-gradient(rgba(48, 86, 105, 0.9), rgba(48, 86, 105, 0.9)), url("../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
